@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Input } from 'reactstrap';
-import data from "../Data/movielist"
+import data from "../Data/Movielist"
 function Header() {
     const [search, setSearch] = useState('');
   return (
