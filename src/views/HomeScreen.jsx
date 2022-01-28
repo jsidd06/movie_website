@@ -1,11 +1,7 @@
-import React from "react";
-
+import React from 'react';
 function HomeScreen() {
   return (
-    <div>
-        <h1>Home Screen</h1>
-    </div>
-  );
+    <h1>hi</h1>)
 }
 
 export default HomeScreen;
