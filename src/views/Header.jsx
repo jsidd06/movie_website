@@ -4,9 +4,9 @@ import data from "../Data/movielist"
 function Header() {
     const [search, setSearch] = useState('');
   return (
-      <Container style={{textAlign: 'center'}}>
+      <Container style={{textAlign: 'center'}} className="mt-2">
         <h1>MovieMasla.com</h1>
-        <Input placeholder="...Search now" onChange={(e) => setSearch(e.target.value)}
+        <Input className="mt-5" placeholder="...Search now" onChange={(e) => setSearch(e.target.value)}
          />
          {/* {
              data.filter((movie) => movie.title.toLowerCase().includes(search.toLowerCase())).map((movie) => {
