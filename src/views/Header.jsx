@@ -8,11 +8,6 @@ function Header() {
         <h1>MovieMasla.com</h1>
         <Input className="mt-5" placeholder="...Search now" onChange={(e) => setSearch(e.target.value)}
          />
-         {/* {
-             data.filter((movie) => movie.title.toLowerCase().includes(search.toLowerCase())).map((movie) => {
-                    return <div key={movie.id}>{movie.title}</div>
-             })
-         } */}
       </Container>
   )
 }
